@@ -266,10 +266,11 @@ Frontend runs at: `http://localhost:3000`
 Replace `MONGO_URI` in `.env` with your Atlas connection string:
 ```
 
+
+
+MONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/hostel_management?retryWrites=true&w=majority
+```
 ##Website Overview
 https://drive.google.com/file/d/1zwgD41U_kPWgmlGHIJZ_36BvCzyFKj-W/view?usp=drive_link
 
 https://drive.google.com/file/d/1bXki4-ztiK20hEXLlxvMX13zAS0rZYSh/view?usp=drive_link
-
-MONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/hostel_management?retryWrites=true&w=majority
-```
